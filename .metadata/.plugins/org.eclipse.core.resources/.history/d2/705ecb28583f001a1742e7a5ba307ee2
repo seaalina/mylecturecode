@@ -1,0 +1,26 @@
+package lv.alina;
+
+import lv.alina.geometricfigures.Circle;
+
+public class TestFigureClass {
+
+
+	public static void main(String[] args) {
+		Circle figure = new Circle();
+		Circle figure1=new Circle(40.2);
+		Circle figure2=new Circle(20.5, "blue");
+
+		System.out.println(figure.getColor()+" "+figure.getRadius());
+		System.out.println(figure1.getColor()+" "+figure1.getRadius());	
+		System.out.println(figure2.getColor()+" "+figure2.getRadius());	}
+		
+		public static double getArea()
+		  {
+		   double radius;
+		   double area = Math.PI*radius*radius;
+		  result=double area;
+
+		   System.out.println("The area is: " + area);
+	}
+
+}

@@ -1,0 +1,10 @@
+package lv.alina.player;
+
+public class FootballPlayer {
+String name;	
+String position;
+int shirtNumber;
+boolean build;
+long height;
+int weight;
+}

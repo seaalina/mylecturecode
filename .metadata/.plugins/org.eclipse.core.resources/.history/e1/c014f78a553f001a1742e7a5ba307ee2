@@ -1,0 +1,11 @@
+package lv.alina;
+
+public class TestFigureClass {
+
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
