@@ -1,0 +1,17 @@
+package lv.alina;
+
+public class LearnMethods {
+
+	/**
+	 * @param args
+	 */
+	//void not return type
+	//Static - nevajag veidot klases objektu lai izsaukt metodi
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void getMyName() {
+		// TODO Auto-generated method stub
+	}
+}
