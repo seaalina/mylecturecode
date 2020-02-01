@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="lv.alina.player.FootballPlayer"/>
+<fullyQualifiedTypeName name="lv.alina.geometricfigures.Circle"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="lv.alina.bookstore.Author"/>
+<fullyQualifiedTypeName name="java.awt.print.Book"/>
+<fullyQualifiedTypeName name="lv.alina.bookstore.Book"/>
+<fullyQualifiedTypeName name="lv.alina.figure.Rectangle"/>
+<fullyQualifiedTypeName name="lv.alina.graph.Point2D"/>
+<fullyQualifiedTypeName name="lv.alina.graph.Point3D"/>
+<fullyQualifiedTypeName name="lv.alina.graph.Point4D"/>
+<fullyQualifiedTypeName name="lv.alina.users.Teachers"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

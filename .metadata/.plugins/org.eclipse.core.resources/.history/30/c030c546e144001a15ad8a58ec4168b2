@@ -1,0 +1,23 @@
+package lv.alina;
+
+import lv.alina.interfaces.Rectangle;
+import lv.alina.interfaces.Shape;
+
+public class TestInterface {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int num1=20;
+		int num2=34;
+		Rectangle rect = new Rectangle(num1, num2);
+		System.out.println(rect.getLength());
+		
+		Shape figure = new Rectangle (5,10);
+		System.out.println(figure.toString());
+		}
+
+	
+
+}
