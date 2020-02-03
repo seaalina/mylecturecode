@@ -1,0 +1,25 @@
+package lv.alina;
+
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	
+	public static void main(String[] args) {
+		 // to populate string array`enter code here`
+	    Scanner sc = new Scanner(System.in);
+	    int length = 10, pos = -1;
+	    String arr[] = new String[length];
+	    while(++pos < length){
+	      System.out.print("Enter string : ");
+	      arr[pos] = sc.nextLine();
+	    }
+
+	    // to read the already populated string array1
+	    for(String s: arr){
+	      System.out.println(s);
+	    }
+	  
+	}
+
+}

@@ -1,0 +1,24 @@
+package lv.alina;
+
+import java.util.ArrayList;
+
+public class CarsExercise {
+
+	public static void main(String[] args) {
+		String[] arr = new String[7];
+		ArrayList<String> array = new ArrayList<>();
+		System.out.println(array.size());
+		array.add("KIA");
+		array.add("Volvo");
+		array.add("Mazda");
+		array.add("Reno");
+		array.add("Peugeut");
+		array.add("Opel");
+		array.add("Audi");
+System.out.println(array);
+System.out.println(array.size()); //changed to 2, because we have added to elements
+	}
+
+	
+
+}

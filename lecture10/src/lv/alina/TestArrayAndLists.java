@@ -21,7 +21,9 @@ public static void arrToString(String[]arr){
 }
 	public static void addElementToArr(String[]arr){
 		for(int i=0; i<arr.length; i++){
-			System.out.println("index number are " +i+" " +arr[i]);
+			arr[i]=arr[i]+i;
+			
 }
+		arrToString(arr);
 	}
 }

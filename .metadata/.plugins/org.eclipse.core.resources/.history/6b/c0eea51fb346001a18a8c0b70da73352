@@ -1,0 +1,40 @@
+package lv.alina;
+
+import java.util.ArrayList;
+
+public class TaskTestArrayMethods {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+ArrayList<String> cars = new ArrayList<>();
+		
+		cars.add("KIA");
+		cars.add("Volvo");
+		cars.add("Mazda");
+		cars.add("Reno");
+		cars.add("Peugeut");
+		cars.add("Opel");
+		cars.add("Audi");
+		System.out.println(cars.indexOf("Mazda")); //return index number in array (starts with 0,1,2,3,4....)
+		System.out.println(cars.isEmpty());
+		System.out.println(cars.get(3)); //returns element which is under this index number
+		System.out.println(cars.set(0, "Renault"));
+		
+		System.out.println("***************************");
+		System.out.println(cars.size());
+		for(String car: cars){
+System.out.println(car);
+
+		}
+		System.out.println();
+		cars.remove("Volvo");
+		cars.remove("OPEL");
+		System.out.println(cars.size());
+		for (String car:cars){
+			System.out.println(car);
+		}
+	}
+
+}

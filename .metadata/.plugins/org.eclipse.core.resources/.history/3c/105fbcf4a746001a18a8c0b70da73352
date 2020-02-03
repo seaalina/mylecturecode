@@ -1,0 +1,67 @@
+package lv.alina;
+
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	
+	public static void main(String[] args) {
+		 // to populate string array`enter code here`
+	    Scanner sc = new Scanner(System.in);
+	    String str="Teacher name";
+		String strClass=new String("Teacher name is");
+		System.out.println(str);
+
+		System.out.println("Teacher name is");
+	}
+}
+		
+//		int stringLength=str.length();
+//		
+//		System.out.println(stringLength);
+//		
+//		System.out.println(str.charAt(3));
+//		
+//		System.out.println(str.toLowerCase());
+//		
+//		System.out.println(str.toUpperCase());
+//		
+//		System.out.println(str.trim());
+//		
+//		System.out.println(str.replace(" ","3"));
+//		
+//		String s1="Hello";
+//		String s2 = "Hello";
+//		String s3="NotHello";
+//		
+//		System.out.println(s1==s2);
+//		System.out.println(s1==s1);
+//		System.out.println(s1==s3);
+//		System.out.println(s1.equals(s2));
+//		System.out.println(s2.equals(s3));
+//		System.out.println(!s1.equals(s2));
+//		System.out.println(!s2.equals(s3));
+//	    
+//	    Friend name = new name();
+//		Friend name1=new name ("Toms");
+//		Friend name2=new name ("Elina");
+//		Friend name3=new name ("Maksims");
+//		
+//	    String arr[] = new String[length];
+//	    while(++pos < length){
+//	      System.out.print("Enter string : ");
+//	      arr[pos] = sc.nextLine();
+//	    }
+//
+//	    // to read the already populated string array1
+//	    for(String s: arr){
+//	      System.out.println(s);
+//	    }
+//	    if (input.trim().length() > 0) {
+//	        return input.trim();
+//	      } else {
+//	        System.out.println("Error -- "
+//	            + "You must enter a string!");
+//	}
+//
+//}

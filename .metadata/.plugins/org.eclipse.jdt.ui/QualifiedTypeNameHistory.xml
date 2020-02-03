@@ -13,4 +13,7 @@
 <fullyQualifiedTypeName name="lv.alina.graph.Point4D"/>
 <fullyQualifiedTypeName name="lv.alina.users.Teachers"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="lv.alina.interfaces.Rectangle"/>
+<fullyQualifiedTypeName name="lv.alina.interfaces.Shape"/>
+<fullyQualifiedTypeName name="lv.alina.interfaces.Triangle"/>
 </qualifiedTypeNameHistroy>

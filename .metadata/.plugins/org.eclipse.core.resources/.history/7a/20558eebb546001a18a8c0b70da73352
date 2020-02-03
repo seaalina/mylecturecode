@@ -1,0 +1,19 @@
+package lv.alina;
+
+import java.util.ArrayList;
+
+public class TestArraysWithObjects {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Integer intObj=49;
+		
+		System.out.println(intObj);
+		//ArrayList<int> cars = new ArrayList<>();
+		
+
+	}
+
+}
