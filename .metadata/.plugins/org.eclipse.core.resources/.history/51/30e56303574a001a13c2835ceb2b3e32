@@ -1,0 +1,22 @@
+package lv.alina.inputoutput;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+
+public class TestReadFile {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		InputStream inputStream;
+		OutputStream outputStream;
+		
+		int c;
+		
+		final int EOF = -1;
+		
+		outputStream = 
+	}
+
+}

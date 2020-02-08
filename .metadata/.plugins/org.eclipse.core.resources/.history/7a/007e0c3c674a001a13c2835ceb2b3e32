@@ -1,0 +1,14 @@
+package lv.alina.inputoutput;
+
+import java.io.File;
+
+public class TestCreateAndWriteFile {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		File fileObj=new File("newfile.txt");
+	}
+
+}
