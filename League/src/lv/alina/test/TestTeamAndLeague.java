@@ -1,0 +1,27 @@
+package lv.alina.test;
+
+import java.util.ArrayList;
+
+import lv.alina.module.League;
+import lv.alina.module.Team;
+
+public class TestTeamAndLeague {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Team>arr=new ArrayList<>();
+		
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		arr.add(ska);
+		arr.add(cska);
+	League khl = new League("KHL");
+//	khl.nameOfTeams.add(cska);
+    khl.setNameOfTeams(arr);
+ 
+ System.out.println(khl.toString());
+ 
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package lv.alina.test;
+
+import lv.alina.module.League;
+
+public class TestTeamAndLeague {
+
+	public static void main(String[] args) {
+	League khl = new League("KHL");
+khl.
+	}
+
+}

@@ -1,0 +1,14 @@
+package lv.alina;
+
+public class TestRegex {
+
+	
+	public static void main(String[] args) {
+	String inputStr = "abc034789_9";
+	String regexStrExp="[0-9]+";
+	
+	System.out.println(inputS);
+
+	}
+
+}

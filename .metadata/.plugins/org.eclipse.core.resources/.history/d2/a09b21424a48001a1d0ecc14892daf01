@@ -1,0 +1,17 @@
+package lv.alina.test;
+
+import lv.alina.module.League;
+import lv.alina.module.Team;
+
+public class TestTeamAndLeague {
+
+	public static void main(String[] args) {
+		
+		Team ska = new Team("SKA");
+	League khl = new League("KHL");
+ khl.setNameOfTeams(nameOfTeams);
+ 
+
+	}
+
+}
